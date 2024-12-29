@@ -25,7 +25,7 @@ The official website is built using **HTML**, **CSS**, and features a **light/da
 
 The live website is hosted on **GitHub Pages** and can be accessed at:
 
-[https://your-github-username.github.io/arrow-network](https://your-github-username.github.io/arrow-network)
+https://arrownetwork.github.io/arrow/
 
 ## How to Contribute
 
