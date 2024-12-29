@@ -1,6 +1,6 @@
-# ARROW Network - Official Website
+# ARROW Network - Official Document
 
-Welcome to the official GitHub repository for the **ARROW Network** website, hosted on GitHub Pages. This site provides detailed information about the **$ARROW token**, its **tokenomics**, **liquidity** mechanisms, and other core features of the ArrowNetwork ecosystem.
+Welcome to the official GitHub repository for the **ARROW Network** Document, hosted on GitHub Pages. This Doc provides detailed information about the **$ARROW token**, its **tokenomics**, **liquidity** mechanisms, and other core features of the ArrowNetwork ecosystem.
 
 ## About ARROW Network
 
@@ -11,9 +11,9 @@ Key Features:
 - Sustainable **liquidity pools** and rewards over time.
 - Active **community involvement** through airdrops and incentives.
 
-## Website Overview
+## Website (Document) Overview
 
-The official website is built using **HTML**, **CSS**, and features a **light/dark mode** toggle for a better user experience. The site includes the following sections:
+The official website with the doc is built using **HTML**, **CSS**, and features a **light/dark mode** toggle for a better user experience. The site includes the following sections:
 
 1. **Tokenomics & Allocations**: A breakdown of how the **$ARROW token** is distributed across different sectors.
 2. **Liquidity**: Information on liquidity pools and trading pairs.
@@ -25,7 +25,7 @@ The official website is built using **HTML**, **CSS**, and features a **light/da
 
 The live website is hosted on **GitHub Pages** and can be accessed at:
 
-https://arrownetwork.github.io/arrow/
+https://arrownetwork.github.io/documentation/
 
 ## How to Contribute
 
