@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Network</title>
+    <style>
+        :root {
+            --bg-light: #f9f9f9;
+            --text-light: #000000;
+            --bg-dark: #1e1e1e;
+            --text-dark: #f0f0f0;
+            --primary-color: #0078d7;
+            --secondary-color: #e0e0e0;
+            --card-light: #ffffff;
+            --card-light-border: #cccccc;
+            --card-dark: #333333;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-dark);
+            color: var(--text-dark);
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        body.dark-mode {
+            background-color: var(--bg-light);
+            color: var(--text-light);
+        }
+
+        header, section {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+            background-color: var(--card-dark);
+            border-radius: 8px;
+            margin-bottom: 20px;
+            transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+        }
+
+        body.dark-mode header, body.dark-mode section {
+            background-color: var(--card-light);
+            color: var(--text-light);
+            border: 1px solid var(--card-light-border);
+        }
+
+        header {
+            text-align: center;
+        }
+
+        .toggle-mode {
+            margin: 10px;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            background-color: var(--primary-color);
+            color: white;
+            border-radius: 5px;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table, th, td {
+            border: 1px solid var(--text-dark);
+        }
+
+        body.dark-mode table, body.dark-mode th, body.dark-mode td {
+            border: 1px solid var(--text-light);
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 5px 0;
+        }
+
+        footer {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 0.9em;
+        }
+    </style>
+    <script>
+        function toggleMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Arrow Network</h1>
+        <p>Created by <strong>Vlad Alexandru</strong> (<a href="https://twitter.com/VladHauriu" target="_blank">@VladHauriu</a>)</p>
+        <p>A passionate crypto enthusiast, a huge MultiversX fan and investor, and an amateur in programming and technology.</p>
+        <button class="toggle-mode" onclick="toggleMode()">Toggle Light/Dark Mode</button>
+    </header>
+
+    <section>
+        <h2>Technical Details</h2>
+        <ul>
+            <li><strong>Project Name:</strong> Arrow Network</li>
+            <li><strong>Token Name (Ticker):</strong> $ARROW</li>
+            <li><strong>Total Supply:</strong> 16,180,000</li>
+        </ul>
+        <h3>Tokenomics</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Allocation</th>
+                    <th>Percentage</th>
+                    <th>Number of Tokens</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Staking Rewards</td>
+                    <td>50%</td>
+                    <td>8,090,000</td>
+                </tr>
+                <tr>
+                    <td>Liquidity Pools</td>
+                    <td>25%</td>
+                    <td>4,045,000</td>
+                </tr>
+                <tr>
+                    <td>Treasury</td>
+                    <td>15%</td>
+                    <td>2,427,000</td>
+                </tr>
+                <tr>
+                    <td>Developer Fund</td>
+                    <td>5%</td>
+                    <td>809,000</td>
+                </tr>
+                <tr>
+                    <td>Community Incentives & Airdrops</td>
+                    <td>5%</td>
+                    <td>809,000</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Useful Links</h2>
+        <ul>
+            <li><a href="https://x.com/arrownetworkmvx" target="_blank">Twitter</a></li>
+            <li><a href="https://github.com" target="_blank">GitHub</a></li>
+            <li><a href="https://explorer.multiversx.com" target="_blank">Token Explorer</a></li>
+            <li><a href="https://xexchange.com" target="_blank">xExchange</a></li>
+            <li><a href="https://multiversx.com" target="_blank">MultiversX</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>About $ARROW</h2>
+        <p>The Arrow Network is designed to ensure sustained, high-yield opportunities with our $ARROW token throughout the passage of time. It is the network for stakers, providing consistent and reliable rewards for its users.</p>
+        <p>With liquidity pools available on xExchange, including an EGLD/$ARROW pair, users can trade $ARROW on xExchange and other platforms as they are added. Future listings are planned on CoinMarketCap and centralized exchanges (CEXs).</p>
+        <p>Staking rewards will initially be high on OneDex but are expected to decrease over time, settling at levels that remain attractive. Price tracking will be available on e-Compass and all exchanges where $ARROW is listed.</p>
+    </section>
+
+    <section>
+        <h2>Reward Distribution</h2>
+        <p>Staking rewards for $ARROW are carefully designed to ensure longevity and sustainability. Rather than distributing all rewards at once, the rewards will be introduced into the staking module gradually. This approach ensures that the reserve diminishes over time, leading to a gradual decrease in interest rates.</p>
+        <p>Once the staking reserve is depleted, inflation will cease, marking the beginning of a strong and stable token economy. Through years of consistent rewards, $ARROW aims to establish itself as a robust and enduring asset.</p>
+    </section>
+
+    <section>
+        <h2>Visibility and Community Engagement</h2>
+        <p>Our Twitter account (<a href="https://x.com/arrownetworkmvx" target="_blank">@arrownetworkmvx</a>) will serve as the primary hub for updates and community interaction. We will regularly post about $ARROW's activity, answer user questions, and ensure transparency. Arrow Network is a community-driven project, where visibility and collaboration are top priorities.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Arrow Network. All rights reserved.</p>
+    </footer>
+</body>
+</html>
